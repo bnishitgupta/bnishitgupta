@@ -1,0 +1,238 @@
+/* nav ul li{
+    display: inline; 
+    margin: 5px;
+    margin-left: 2%;
+     /* height: 20px;   
+} */
+
+.navbar-brand{
+    position: absolute;
+}
+nav .navbar-nav li a{
+    color: black !important;
+    }
+
+    .custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+   }
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+/* nav ul {margin:0; padding:0;} */
+/* nav{
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(54, 177, 173);
+    width: 100%;
+    top: 0;
+    
+}  */
+header{
+    /* background: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiBwJvlld_iAhXiX3wKHRcmBg8QjRx6BAgBEAU&url=https%3A%2F%2Fblog.advids.co%2F20-brilliant-animated-corporate-video-examples%2F&psig=AOvVaw2RPPWMC0kghuna6T2F2Tis&ust=1560264886645870") no-repeat top center fixed; */
+    height: 700px;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(245, 245, 245, 0.192);
+}
+
+
+/* a:link, a:visited {
+    background-color: rgb(54, 177, 173);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    height: 10px;
+
+}
+
+a:hover,a:active {
+    background-color: #333333;
+   
+} */
+section{
+    margin:5px; 
+    padding:8px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h4{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* img{
+    height: 400px;
+    width: 300px;
+} */
+img.a{
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+}
+span.a {
+    border: 5px solid rgb(231, 92, 115);
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(207, 205, 205); 
+    box-shadow: 7px 7px 10px #888888;
+    /* margin-inline-start: 20px; */
+  }
+div.table{
+    width: 600px;
+    height: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224); 
+    transition: width .1s;
+    /* background-color: red; */
+}
+/* .table:hover{
+    width: 610px;
+} */
+.box{
+    margin: 50px;
+    width: 103px;
+    height: 130px;
+    background: url("images/net.png") no-repeat;
+    
+}
+.customDiv{
+    /* background-color: rgb(224, 224, 224);  */
+    height: 260px;
+    border-radius: 3px;
+}
+#custom{
+    background-color: #f4f4f4;
+    height: 300px; 
+}
+.buttons{
+    /* margin-top: 100px; */
+    padding-top: 100px;
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    margin: 0;
+    width: 100%
+}
+
+#division{
+    margin: 10px;
+    padding: 12px;
+    border: 2px solid #666;
+    width: 60px;
+    background-color: aqua;
+}
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+
+  .flip-card {
+    background-color: transparent;
+    /* width: 280px; */
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    /* background-color: #2980b9; */
+    background-color: #428bca;
+    color: white;
+  }
+
+  .flip-card-back {
+    background-color: #f4f4f4;
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+  .buttons{
+      margin-top: 15px;
+  }
+
+
+  
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:14px;
+}
+
+
+
+
+  @media screen and (max-width: 992px) {
+    .flip-card {
+      margin-top:15px;    
+     }
+     .customDiv{
+         margin-top: 15px;
+     }
+  }
